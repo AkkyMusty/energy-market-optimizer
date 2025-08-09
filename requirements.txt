@@ -1,0 +1,27 @@
+# Optimization & modeling
+pulp==2.7.0
+pyomo==6.6.2
+
+# Solvers (optional, some need manual install)
+glpk  # For LP/MILP solving (on Linux/macOS: brew/apt; Windows: manual install)
+
+# Data handling & analysis
+pandas==2.2.2
+numpy==1.26.4
+
+# Visualization
+matplotlib==3.9.1
+plotly==5.23.0
+
+# Forecasting & ML
+scikit-learn==1.5.1
+statsmodels==0.14.2
+
+# Simulation
+simpy==4.1.1
+
+# Interactive apps (optional for later stages)
+streamlit==1.36.0
+
+# Jupyter notebook (optional for experimentation)
+jupyter==1.0.0
